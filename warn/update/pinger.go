@@ -1,8 +1,8 @@
 package update
 
 import (
-	"bitbucket.org/lewington/autoroller/globals"
-	"bitbucket.org/lewington/autoroller/warn/health"
+	"github.com/lewington/listener/globals"
+	"github.com/lewington/listener/warn/health"
 )
 
 // Pinger sends system status updates from a given

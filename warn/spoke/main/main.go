@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"bitbucket.org/lewington/autoroller/globals"
-	"bitbucket.org/lewington/autoroller/warn/spoke"
+	"github.com/lewington/listener/globals"
+	"github.com/lewington/listener/warn/spoke"
 )
 
 func main() {

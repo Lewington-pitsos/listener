@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/globals"
 
-	"bitbucket.org/lewington/autoroller/assist"
-	"bitbucket.org/lewington/autoroller/warn/health"
+	"github.com/lewington/listener/assist"
+	"github.com/lewington/listener/warn/health"
 )
 
 // JSONHub serves the system's overall health as

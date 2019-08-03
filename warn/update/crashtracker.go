@@ -3,9 +3,9 @@ package update
 import (
 	"time"
 
-	"bitbucket.org/lewington/autoroller/warn/health"
+	"github.com/lewington/listener/warn/health"
 
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/globals"
 )
 
 // CrashTracker keeps sending green updates to the

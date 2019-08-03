@@ -3,8 +3,8 @@ package health
 import (
 	"time"
 
-	"bitbucket.org/lewington/autoroller/assist"
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/assist"
+	"github.com/lewington/listener/globals"
 )
 
 // SystemStamp represents the state of a given system

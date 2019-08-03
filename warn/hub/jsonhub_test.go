@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/globals"
 
-	"bitbucket.org/lewington/autoroller/assist"
-	"bitbucket.org/lewington/autoroller/warn/health"
+	"github.com/lewington/listener/assist"
+	"github.com/lewington/listener/warn/health"
 
-	"bitbucket.org/lewington/autoroller/testhelp"
+	"github.com/lewington/listener/testhelp"
 )
 
 func TestJSONHub(t *testing.T) {

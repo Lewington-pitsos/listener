@@ -1,7 +1,7 @@
 package spoke
 
 import (
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/globals"
 )
 
 // Spoke periodically pings an endpoint for

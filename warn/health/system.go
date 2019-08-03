@@ -1,6 +1,6 @@
 package health
 
-import "bitbucket.org/lewington/autoroller/globals"
+import "github.com/lewington/listener/globals"
 
 // System represents an isolated component
 // of the overall betting software.

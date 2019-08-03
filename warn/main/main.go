@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"bitbucket.org/lewington/autoroller/globals"
+	"github.com/lewington/listener/globals"
 
-	"bitbucket.org/lewington/autoroller/warn/hub"
+	"github.com/lewington/listener/warn/hub"
 )
 
 func main() {

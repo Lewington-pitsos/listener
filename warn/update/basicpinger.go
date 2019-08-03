@@ -6,10 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"bitbucket.org/lewington/autoroller/assist"
-	"bitbucket.org/lewington/autoroller/globals"
-	"bitbucket.org/lewington/autoroller/lg"
-	"bitbucket.org/lewington/autoroller/warn/health"
+	"github.com/lewington/listener/assist"
+	"github.com/lewington/listener/globals"
+	"github.com/lewington/listener/warn/health"
 )
 
 // BasicPinger makes post requests to a JSONHub.
@@ -33,14 +32,14 @@ func (b *BasicPinger) Update(component globals.Component, status health.Status) 
 		resp, err := http.Post(b.endpoint, "application/json", bytes.NewBuffer(sysBytes))
 
 		if err != nil {
-			lg.L.Error("failure to post update error: %v, response: %v", err, resp)
+			fmt.Println("failure to post update error: %v, response: %v", err, resp)
 		} else {
 			resp.Body.Close()
 			if resp.Status == "200 OK" {
 				success = true
 				break
 			} else {
-				lg.L.Error("anomalous response detected when updating to hub")
+				fmt.Println("anomalous response detected when updating to hub")
 			}
 		}
 	}
